@@ -8,8 +8,6 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    NavigationMenuIndicator: typeof import('reka-ui')['NavigationMenuIndicator']
-    NavigationMenuLink: typeof import('reka-ui')['NavigationMenuLink']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
